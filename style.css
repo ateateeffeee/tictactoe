@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+table {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+
+    outline-style: ridge;
+    outline-color:yellow;
+    outline-width: 15px;
+
+}
+
+.cells {
+    cursor:pointer;
+    height: 33px;
+    width: 33px;
+    font-size: 25px;
+    text-align: center;
+    outline-style: groove;
+    outline-color: green;
+    outline-width: 5px;
+    color: white;
+}
+
+.playerName {
+    color: yellow;
+}
+
+.playerScore {
+    color: white;
+
+}
+
+
+
+#newGameBox {
+    background-color: cyan;
+    height: 241px;
+    width: 240px;
+    padding: 30px;
+
+    position: absolute;
+    top: 235px;
+    z-index: 9;
+
+    opacity: .8;
+}
+
+#newGameBtn {
+    
+}
+
+#scoreboard {
+    background-color: blue;
+    height: 115px;
+    width: 315px;
+
+    position: relative;
+    left: 350px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#getUserInfo {
+    background-color: teal;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    z-index: 9;
+}
